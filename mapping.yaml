@@ -901,6 +901,7 @@ languages:
   vi:
     - vietnamese_telex
     - vietnamese_vni
+    - vietnamese_vni_tone_row
     - kasroz
     - clearflow
   vot:
