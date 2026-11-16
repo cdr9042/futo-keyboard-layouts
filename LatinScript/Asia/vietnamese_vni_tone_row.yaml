@@ -8,7 +8,9 @@ rows:
   # the normal ASCII digits (the real number row) are left untouched by the combiner.
   # The small hint shows the mark that the key types.
   # U+00B4 acute, U+0060 grave, U+25CC U+0309 hook above, U+02DC tilde, U+25CC U+0323 dot below,
-  # U+02C6 circumflex, U+25CC U+031B horn, U+02D8 breve, U+0111 d with stroke.
+  # U+02C6 circumflex, U+25CC U+031B horn, U+02D8 breve,
+  # d + U+0335 stroke: KeyboardView.drawStrokeMark draws it as a faded d with a solid stroke, since
+  # the precomposed U+0111 would look like a key that types đ.
   - numRowMode: Hideable
     letters:
       - {type: base, spec: "1|１", hint: "´"}
@@ -19,7 +21,7 @@ rows:
       - {type: base, spec: "6|６", hint: "ˆ"}
       - {type: base, spec: "7|７", hint: "◌̛"}
       - {type: base, spec: "8|８", hint: "˘"}
-      - {type: base, spec: "9|９", hint: "đ"}
+      - {type: base, spec: "9|９", hint: "d̵"}
       - "0|０"
   # Number row is on: the real number row is shown above, and the tone row is separate and shows
   # only the marks.
@@ -33,7 +35,7 @@ rows:
       - "ˆ|６"
       - "◌̛|７"
       - "˘|８"
-      - "đ|９"
+      - "d̵|９"
       - "0|０"
   - letters: q w e r t y u i o p
   - letters: a s d f g h j k l
