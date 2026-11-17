@@ -1,4 +1,4 @@
-name: VNI
+name: VNI (legacy)
 languages: vi
 combiners:
   - VNI

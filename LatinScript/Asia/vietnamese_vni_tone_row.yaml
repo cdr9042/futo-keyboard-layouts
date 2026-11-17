@@ -1,4 +1,4 @@
-name: VNI (tone row)
+name: VNI
 languages: vi
 combiners:
   - VNI

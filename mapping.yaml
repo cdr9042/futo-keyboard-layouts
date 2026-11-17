@@ -899,9 +899,9 @@ languages:
     - ludic_veps
     - qwerty
   vi:
+    - vietnamese_vni_tone_row
     - vietnamese_telex
     - vietnamese_vni
-    - vietnamese_vni_tone_row
     - kasroz
     - clearflow
   vot:
